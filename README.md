@@ -106,3 +106,10 @@ def main():
 if __name__ == "__main__":
     main()
 
+Usage example:
+
+# Create baseline
+python3 file_integrity_checker.py baseline ~/myproject baseline.json
+
+# Later verify
+python3 file_integrity_checker.py verify ~/myproject baseline.json
